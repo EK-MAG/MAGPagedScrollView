@@ -34,7 +34,7 @@ public class PagedReusableScrollView: PagedScrollView {
         reload()
     }
     
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         reload()
     }
@@ -101,7 +101,7 @@ public class PagedReusableScrollView: PagedScrollView {
     }
 
   
-    override func didMoveToSuperview() {
+    override public func didMoveToSuperview() {
         super.didMoveToSuperview();
         if superview != nil {
             reload()
@@ -126,7 +126,7 @@ public class PagedReusableScrollView: PagedScrollView {
         }
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         if itemSize != UIEdgeInsetsInsetRect(frame, contentInset).size {
             reload()
             return
