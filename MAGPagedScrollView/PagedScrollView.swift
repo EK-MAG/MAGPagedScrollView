@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum PagedScrollViewTransitionType {
+public enum PagedScrollViewTransitionType {
     case None
     case Slide
     case Dive
