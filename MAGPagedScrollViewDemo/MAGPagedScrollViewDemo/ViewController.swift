@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MAGPagedScrollView
 
 class ViewController: UIViewController {
 

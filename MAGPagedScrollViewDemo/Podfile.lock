@@ -1,0 +1,24 @@
+PODS:
+  - MAGPagedScrollView (0.0.5)
+  - SwiftyJSON (2.2.1)
+
+DEPENDENCIES:
+  - MAGPagedScrollView (from `https://github.com/EK-MAG/MAGPagedScrollView.git`, commit
+    `9b1b64900b681de8915c173ba7298a72e6baba53`)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  MAGPagedScrollView:
+    :commit: 9b1b64900b681de8915c173ba7298a72e6baba53
+    :git: https://github.com/EK-MAG/MAGPagedScrollView.git
+
+CHECKOUT OPTIONS:
+  MAGPagedScrollView:
+    :commit: 9b1b64900b681de8915c173ba7298a72e6baba53
+    :git: https://github.com/EK-MAG/MAGPagedScrollView.git
+
+SPEC CHECKSUMS:
+  MAGPagedScrollView: cf0aa0d617fe2130923e26eab7b99d0019e9d4a0
+  SwiftyJSON: ae2d0a3d68025d136602a33c4ee215091ced3e33
+
+COCOAPODS: 0.38.2

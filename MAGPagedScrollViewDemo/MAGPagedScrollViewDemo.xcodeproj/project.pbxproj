@@ -7,24 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E02AB2F48651E102C3DFC8C /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39E0839C64657FBF757F510 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BD1C388C1B8D6F20007D9A2F /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1C388B1B8D6F20007D9A2F /* ViewController4.swift */; };
-		BD1C388E1B8D82F9007D9A2F /* PagedParallaxScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1C388D1B8D82F9007D9A2F /* PagedParallaxScrollView.swift */; };
 		BD1C38911B8D873D007D9A2F /* ParralaxCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1C388F1B8D873D007D9A2F /* ParralaxCardViewController.swift */; };
 		BD1C38921B8D873D007D9A2F /* ParralaxCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1C38901B8D873D007D9A2F /* ParralaxCardViewController.xib */; };
-		BD1C38941B8D959C007D9A2F /* ParallaxViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1C38931B8D959C007D9A2F /* ParallaxViewProxy.swift */; };
 		BD1ED9301B870ED70035D46C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1ED92F1B870ED70035D46C /* AppDelegate.swift */; };
 		BD1ED9321B870ED70035D46C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1ED9311B870ED70035D46C /* ViewController.swift */; };
 		BD1ED9351B870ED70035D46C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1ED9331B870ED70035D46C /* Main.storyboard */; };
 		BD1ED9371B870ED70035D46C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1ED9361B870ED70035D46C /* Images.xcassets */; };
 		BD1ED93A1B870ED70035D46C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1ED9381B870ED70035D46C /* LaunchScreen.xib */; };
 		BD1ED9461B870ED70035D46C /* MAGPagedScrollViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1ED9451B870ED70035D46C /* MAGPagedScrollViewDemoTests.swift */; };
-		BD1ED9511B870F9E0035D46C /* PagedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1ED9501B870F9E0035D46C /* PagedScrollView.swift */; };
-		BD1ED9531B873AAD0035D46C /* PagedReusableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1ED9521B873AAD0035D46C /* PagedReusableScrollView.swift */; };
 		BD7A9FFE1B88BB7100953466 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A9FFD1B88BB7100953466 /* ViewController3.swift */; };
 		BD7AA0011B88BBDE00953466 /* SimpleCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A9FFF1B88BBDE00953466 /* SimpleCardViewController.swift */; };
 		BD7AA0021B88BBDE00953466 /* SimpleCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD7AA0001B88BBDE00953466 /* SimpleCardViewController.xib */; };
 		BDEEA4651B87771000D50545 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEEA4641B87771000D50545 /* ViewController2.swift */; };
-		BDFC7F911B8F572900743C98 /* PagedScrollViewContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFC7F901B8F572900743C98 /* PagedScrollViewContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D123FA4940C97DD76B13993 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B92BF923B43639A62DE74B99 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BD1C388B1B8D6F20007D9A2F /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
-		BD1C388D1B8D82F9007D9A2F /* PagedParallaxScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedParallaxScrollView.swift; sourceTree = "<group>"; };
 		BD1C388F1B8D873D007D9A2F /* ParralaxCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParralaxCardViewController.swift; sourceTree = "<group>"; };
 		BD1C38901B8D873D007D9A2F /* ParralaxCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParralaxCardViewController.xib; sourceTree = "<group>"; };
-		BD1C38931B8D959C007D9A2F /* ParallaxViewProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxViewProxy.swift; sourceTree = "<group>"; };
 		BD1ED92A1B870ED70035D46C /* MAGPagedScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAGPagedScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1ED92E1B870ED70035D46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD1ED92F1B870ED70035D46C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,13 +49,11 @@
 		BD1ED93F1B870ED70035D46C /* MAGPagedScrollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAGPagedScrollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1ED9441B870ED70035D46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD1ED9451B870ED70035D46C /* MAGPagedScrollViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAGPagedScrollViewDemoTests.swift; sourceTree = "<group>"; };
-		BD1ED9501B870F9E0035D46C /* PagedScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedScrollView.swift; sourceTree = "<group>"; };
-		BD1ED9521B873AAD0035D46C /* PagedReusableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedReusableScrollView.swift; sourceTree = "<group>"; };
 		BD7A9FFD1B88BB7100953466 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		BD7A9FFF1B88BBDE00953466 /* SimpleCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCardViewController.swift; sourceTree = "<group>"; };
 		BD7AA0001B88BBDE00953466 /* SimpleCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCardViewController.xib; sourceTree = "<group>"; };
 		BDEEA4641B87771000D50545 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		BDFC7F901B8F572900743C98 /* PagedScrollViewContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedScrollViewContainerViewController.swift; sourceTree = "<group>"; };
+		C39E0839C64657FBF757F510 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E02AB2F48651E102C3DFC8C /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +75,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D0E79B01818DA7A2FA6217F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C39E0839C64657FBF757F510 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD1ED9211B870ED70035D46C = {
 			isa = PBXGroup;
 			children = (
 				BD1ED92C1B870ED70035D46C /* MAGPagedScrollViewDemo */,
 				BD1ED9421B870ED70035D46C /* MAGPagedScrollViewDemoTests */,
 				BD1ED92B1B870ED70035D46C /* Products */,
+				F5B9F25A82CC615B941F1869 /* Pods */,
+				7D0E79B01818DA7A2FA6217F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +106,6 @@
 		BD1ED92C1B870ED70035D46C /* MAGPagedScrollViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BD1ED94F1B870F530035D46C /* PagedScrollView */,
 				BD1ED92F1B870ED70035D46C /* AppDelegate.swift */,
 				BD1ED9311B870ED70035D46C /* ViewController.swift */,
 				BD1ED9331B870ED70035D46C /* Main.storyboard */,
@@ -144,17 +148,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BD1ED94F1B870F530035D46C /* PagedScrollView */ = {
+		F5B9F25A82CC615B941F1869 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD1ED9501B870F9E0035D46C /* PagedScrollView.swift */,
-				BD1ED9521B873AAD0035D46C /* PagedReusableScrollView.swift */,
-				BD1C388D1B8D82F9007D9A2F /* PagedParallaxScrollView.swift */,
-				BD1C38931B8D959C007D9A2F /* ParallaxViewProxy.swift */,
-				BDFC7F901B8F572900743C98 /* PagedScrollViewContainerViewController.swift */,
+				5D123FA4940C97DD76B13993 /* Pods.debug.xcconfig */,
+				B92BF923B43639A62DE74B99 /* Pods.release.xcconfig */,
 			);
-			name = PagedScrollView;
-			path = ../../MAGPagedScrollView;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD1ED9491B870ED70035D46C /* Build configuration list for PBXNativeTarget "MAGPagedScrollViewDemo" */;
 			buildPhases = (
+				7D09FC207918A5E045B34E97 /* Check Pods Manifest.lock */,
 				BD1ED9261B870ED70035D46C /* Sources */,
 				BD1ED9271B870ED70035D46C /* Frameworks */,
 				BD1ED9281B870ED70035D46C /* Resources */,
+				A54BF76CC24DA2982FDD76E3 /* Embed Pods Frameworks */,
+				94367997FB429630FD104230 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +257,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D09FC207918A5E045B34E97 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94367997FB429630FD104230 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A54BF76CC24DA2982FDD76E3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD1ED9261B870ED70035D46C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -262,15 +313,10 @@
 				BD1C38911B8D873D007D9A2F /* ParralaxCardViewController.swift in Sources */,
 				BDEEA4651B87771000D50545 /* ViewController2.swift in Sources */,
 				BD7AA0011B88BBDE00953466 /* SimpleCardViewController.swift in Sources */,
-				BD1ED9531B873AAD0035D46C /* PagedReusableScrollView.swift in Sources */,
 				BD1C388C1B8D6F20007D9A2F /* ViewController4.swift in Sources */,
 				BD7A9FFE1B88BB7100953466 /* ViewController3.swift in Sources */,
 				BD1ED9321B870ED70035D46C /* ViewController.swift in Sources */,
-				BD1C38941B8D959C007D9A2F /* ParallaxViewProxy.swift in Sources */,
-				BDFC7F911B8F572900743C98 /* PagedScrollViewContainerViewController.swift in Sources */,
-				BD1ED9511B870F9E0035D46C /* PagedScrollView.swift in Sources */,
 				BD1ED9301B870ED70035D46C /* AppDelegate.swift in Sources */,
-				BD1C388E1B8D82F9007D9A2F /* PagedParallaxScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +443,7 @@
 		};
 		BD1ED94A1B870ED70035D46C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D123FA4940C97DD76B13993 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MAGPagedScrollViewDemo/Info.plist;
@@ -407,6 +454,7 @@
 		};
 		BD1ED94B1B870ED70035D46C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B92BF923B43639A62DE74B99 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MAGPagedScrollViewDemo/Info.plist;

@@ -1,0 +1,6 @@
+framework module MAGPagedScrollView {
+  umbrella header "MAGPagedScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

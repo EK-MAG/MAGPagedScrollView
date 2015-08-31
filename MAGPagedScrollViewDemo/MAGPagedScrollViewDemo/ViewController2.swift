@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MAGPagedScrollView
 
 class ViewController2: UIViewController {
 
@@ -69,7 +70,7 @@ extension ViewController2: PagedReusableScrollViewDataSource {
             let imageView = newView as! UIImageView
             imageView.image = UIImage(named:"photo\(index).jpg")
         }
-        
+        newView?.view.clipsToBounds = true
         return newView!
     }
     
