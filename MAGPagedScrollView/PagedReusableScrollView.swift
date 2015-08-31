@@ -19,7 +19,7 @@ import UIKit
 
 }
 
-class PagedReusableScrollView: PagedScrollView {
+public class PagedReusableScrollView: PagedScrollView {
     
     @IBOutlet weak var dataSource:PagedReusableScrollViewDataSource! {
         didSet {
