@@ -156,7 +156,7 @@ class PagedReusableScrollView: PagedScrollView {
             let height = CGRectGetHeight(frameI)
             var x:CGFloat = CGFloat(index) * width
             view.view.frame = CGRectMake(x, 0, width, height)
-            view.view.clipsToBounds = true
+//            view.view.clipsToBounds = true
             dataSource?.scrollView?(scrollView: self, willShowView: view)
             addSubview(view.view)
             dataSource?.scrollView?(scrollView: self, didShowView: view)
